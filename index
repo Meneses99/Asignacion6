@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción al Desarrollo Web - UTP</title>
+</head>
+<body>
+    <!-- ENCABEZADO PRINCIPAL: identifica la universidad y el curso -->
+    <header id="inicio">
+        <h1>Universidad Tecnológica de Panamá</h1>
+        <h2>Introducción al Desarrollo Web</h2>
+        <p>
+            Bienvenidos a este espacio introductorio. En este sitio conocerás qué es una página web,
+            cómo se muestra en el navegador y cuáles son algunas de las diferencias entre los tipos
+            de páginas y las aplicaciones web. El contenido está elaborado con HTML, el lenguaje de
+            marcado que organiza la información de una página.
+        </p>
+        <p>
+            <a href="#inscripcion">Ir al formulario de inscripción</a> |
+            <a href="#tabla-tipos">Consultar la tabla de ejemplos</a> |
+            <a href="#multimedia">Ver los recursos multimedia</a>
+        </p>
+        <hr>
+    </header>
+
+    <!-- IMAGEN REPRESENTATIVA: se carga desde un servicio externo -->
+    <section id="imagen">
+        <h2>El mundo de la web</h2>
+        <p>La web conecta documentos, recursos y servicios que podemos consultar mediante un navegador.</p>
+        <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=80"
+            alt="Computadora portátil sobre un escritorio de trabajo"
+            width="600">
+        <p><small>Imagen ilustrativa alojada en Unsplash. Se requiere conexión a Internet para verla.</small></p>
+    </section>
+
+    <!-- CONTENIDO EXPLICATIVO: conceptos básicos solicitados en la asignación -->
+    <main>
+        <section id="que-es">
+            <h2>1. ¿Qué es una página web?</h2>
+            <p>
+                Una página web es un documento digital que puede consultarse mediante un navegador.
+                Puede contener texto, imágenes, enlaces, tablas, formularios y otros recursos
+                multimedia. Normalmente está escrito en HTML, que permite organizar y describir su contenido.
+            </p>
+            <h3>¿Cómo funciona una página web?</h3>
+            <p>
+                Cuando una persona escribe una dirección o selecciona un enlace, el navegador solicita
+                el recurso al servidor que lo aloja. El servidor responde con los archivos o datos
+                solicitados y el navegador interpreta el HTML para presentar el contenido en pantalla.
+            </p>
+            <p>
+                <strong>Ejemplo:</strong> al visitar la página de una universidad, el navegador solicita
+                sus documentos y muestra información como carreras, noticias y datos de contacto.
+            </p>
+        </section>
+
+        <section id="estaticas">
+            <h2>2. Páginas web estáticas</h2>
+            <p>
+                Una página estática presenta contenido que permanece igual para quienes la visitan,
+                salvo que alguien modifique sus archivos. Es apropiada para información institucional,
+                portafolios sencillos, folletos digitales y páginas introductorias.
+            </p>
+            <h3>Ejemplo</h3>
+            <p>Una página que publica el horario de atención de una biblioteca y que solo cambia cuando el encargado edita el HTML.</p>
+        </section>
+
+        <section id="dinamicas">
+            <h2>3. Páginas web dinámicas</h2>
+            <p>
+                Una página dinámica puede presentar contenido diferente según los datos recibidos,
+                las acciones del usuario o la información almacenada en un sistema. Con frecuencia
+                utiliza programación del lado del servidor, bases de datos y, en muchos casos,
+                tecnologías adicionales en el navegador.
+            </p>
+            <h3>Ejemplo</h3>
+            <p>Un portal de notas que muestra las calificaciones correspondientes a la cuenta del estudiante que inició sesión.</p>
+        </section>
+
+        <section id="sitio-aplicacion">
+            <h2>4. Diferencia entre sitio web y aplicación web</h2>
+            <p>
+                Un sitio web suele organizar páginas informativas relacionadas, por ejemplo, las
+                secciones de una institución. Una aplicación web, además de mostrar información,
+                permite realizar tareas e interactuar con datos, como inscribirse en cursos,
+                administrar documentos o consultar resultados.
+            </p>
+            <p>
+                La diferencia no siempre es absoluta: un mismo sitio puede incluir funciones que
+                se comportan como una aplicación web.
+            </p>
+        </section>
+
+        <!-- TABLA: incluye tres columnas y más de tres filas -->
+        <section id="tabla-tipos">
+            <h2>5. Tipos de páginas web: ejemplos</h2>
+            <table border="1">
+                <caption>Comparación de tipos de páginas web</caption>
+                <thead>
+                    <tr>
+                        <th>Tipo de Página Web</th>
+                        <th>Descripción</th>
+                        <th>Ejemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Estática</td>
+                        <td>Presenta contenido que cambia cuando se editan sus archivos.</td>
+                        <td>Folleto digital de una biblioteca.</td>
+                    </tr>
+                    <tr>
+                        <td>Dinámica</td>
+                        <td>Genera o actualiza contenido a partir de datos o interacciones.</td>
+                        <td>Portal de calificaciones estudiantiles.</td>
+                    </tr>
+                    <tr>
+                        <td>Sitio web informativo</td>
+                        <td>Reúne varias páginas principalmente informativas.</td>
+                        <td>Sitio institucional de una universidad.</td>
+                    </tr>
+                    <tr>
+                        <td>Aplicación web</td>
+                        <td>Permite completar tareas e interactuar con datos.</td>
+                        <td>Sistema de matrícula en línea.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Video de YouTube sobre desarrollo web -->
+<section id="video">
+    <h2>Video sobre desarrollo web</h2>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ofo6VCZp5ls"
+        title="Video sobre desarrollo web"
+        allowfullscreen>
+    </iframe>
+</section>
+
+            <h3>Audio breve</h3>
+            <p>Utiliza los controles para reproducir o pausar el audio de muestra.</p>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Tu navegador no puede reproducir este audio. Puedes probar con otro navegador.
+            </audio>
+            <p><small>El audio se aloja en un servidor externo; requiere conexión a Internet.</small></p>
+        </section>
+
+        <!-- ENLACES: ancla interna, recurso externo y correo electrónico -->
+        <section id="enlaces">
+            <h2>7. Enlaces de interés</h2>
+            <ul>
+                <li><a href="#inicio">Enlace interno: volver al inicio de esta página.</a></li>
+                <li><a href="https://developer.mozilla.org/es/docs/Learn_web_development" target="_blank" rel="noopener noreferrer">Enlace externo: aprender desarrollo web en MDN.</a></li>
+                <li><a href="mailto:profesor@utp.ac.pa?subject=Consulta%20sobre%20Introducci%C3%B3n%20al%20Desarrollo%20Web">Contactar al profesor por correo electrónico.</a> (Sustituye la dirección por el correo real del profesor).</li>
+            </ul>
+        </section>
+
+        <!-- FORMULARIO: demuestra los campos HTML requeridos; no guarda datos por sí solo -->
+        <section id="inscripcion">
+            <h2>8. Formulario de inscripción estudiantil</h2>
+            <p>
+                Completa los campos de ejemplo. Este formulario es demostrativo: al no contar con
+                un servidor ni un servicio de procesamiento, no almacena ni envía la información.
+            </p>
+            <form action="mailto:profesor@utp.ac.pa" method="post" enctype="text/plain">
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+                <p>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido" required>
+                </p>
+                <p>
+                    <label for="contrasena">Contraseña:</label><br>
+                    <input type="password" id="contrasena" name="contrasena" required>
+                </p>
+                <p>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+                <p>
+                    <label for="fecha">Fecha de nacimiento:</label><br>
+                    <input type="date" id="fecha" name="fecha_nacimiento" required>
+                </p>
+                <p>
+                    <label for="cedula">Cédula:</label><br>
+                    <input type="text" id="cedula" name="cedula" placeholder="Ejemplo: 8-000-0000" required>
+                </p>
+                <fieldset>
+                    <legend>Modalidad de estudio</legend>
+                    <input type="radio" id="presencial" name="modalidad" value="Presencial" required>
+                    <label for="presencial">Presencial</label><br>
+                    <input type="radio" id="virtual" name="modalidad" value="Virtual">
+                    <label for="virtual">Virtual</label>
+                </fieldset>
+                <p>
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="5" cols="40" placeholder="Escribe aquí tus consultas o comentarios."></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Restablecer">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA: información final y navegación -->
+    <footer>
+        <hr>
+        <p>Universidad Tecnológica de Panamá | Introducción al Desarrollo Web</p>
+        <p><a href="#inicio">Volver al inicio</a></p>
+    </footer>
+</body>
+</html>
